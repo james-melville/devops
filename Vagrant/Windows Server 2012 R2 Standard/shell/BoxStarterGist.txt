@@ -1,0 +1,5 @@
+Enable-RemoteDesktop
+Set-CornerNavigationOptions -EnableUsePowerShellOnWinX
+Set-ExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions -EnableShowFullPathInTitlebar
+Set-TaskbarOptions -Size Small -Lock
+choco install notepadplusplus
